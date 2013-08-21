@@ -1,0 +1,46 @@
+.align-center{
+  text-align: center;
+}
+
+body{
+  background-image: url(../img/cream_pixels.png);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-default .navbar-brand{
+  transition: all .3s ease-in-out;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #fff;
+}
+
+.navbar-default {
+   background-color: #000;
+   border-color: #000;
+   border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  transition: all .3s ease-in-out;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+}
+
+.navbar-collapse{
+  border-top: none;
+}
+
+.content{
+  background-color: #fff;
+  border-radius: 3px;
+  height: 300px;
+  padding-top: 10px;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.3);
+}
